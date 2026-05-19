@@ -1,7 +1,7 @@
-project-2:
-  name: PROJECT-2
+auditors:
+  name: auditors
   project_team_access:
-    team-2: {}
+    auditors: {}
   project_variable_set:
     arguments:
       global: false

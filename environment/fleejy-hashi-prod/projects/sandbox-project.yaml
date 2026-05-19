@@ -1,8 +1,8 @@
-project-3:
-  name: PROJECT-3
+sandbox-project:
+  name: sandbox-project
   project_team_access: 
-    team-1: {}
-    team-2: {}
+    platform: {}
+    auditors: {}
   project_variable_set:
     arguments:
       global: false

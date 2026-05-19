@@ -6,10 +6,9 @@ locals {
 }
 
 module "platform_admin_module" {
-
   #Optimally you would publish this module into the Private Registry of your org in TFC/E, then have the address to that module as the value for the source argument
-  source  = "touched-bedbug.zisom.sbx.hashidemos.io/test-company-prod/platform-admin-module/tfe"
-  version = "1.0.3"
+  source  = "app.terraform.io/fleejy-hashi/terraform-tfe-platform-admin-module/fleejy"
+  version = "0.1.0"
 
   fixed_teams      = merge([for team in local.teams : yamldecode(file(team))]...)
   fixed_projects   = merge([for project in local.projects : yamldecode(file(project))]...)

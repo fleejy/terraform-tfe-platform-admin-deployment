@@ -1,5 +1,5 @@
-team-2:
-  name: team-2
+platform:
+  name: platform
   visibility: organization
   organization_access:
     arguments:

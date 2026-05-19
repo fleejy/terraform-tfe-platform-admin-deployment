@@ -1,9 +1,9 @@
-team-1:
-  name: team-1
+auditors:
+  name: auditors
   visibility: secret
   organization_access:
     arguments:
-      read_workspaces: false
+      read_workspaces: true
       read_projects: false
       manage_policies: false
       manage_policy_overrides: false
