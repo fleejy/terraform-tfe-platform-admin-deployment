@@ -1,0 +1,9 @@
+# Example of 1:1 team to project
+project-2:
+  name: PROJECT-2
+  project_team_access:
+    team-B: {}
+  project_variable_set:
+    arguments:
+      global: false
+      priority: true

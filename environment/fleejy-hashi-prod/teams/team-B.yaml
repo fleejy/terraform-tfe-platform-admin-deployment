@@ -1,10 +1,10 @@
-auditors:
-  name: auditors
-  visibility: secret
+team-B:
+  name: team-B
+  visibility: organization
   organization_access:
     arguments:
       read_workspaces: true
-      read_projects: false
+      read_projects: true
       manage_policies: false
       manage_policy_overrides: false
       manage_workspaces: false

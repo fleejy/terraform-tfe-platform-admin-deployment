@@ -1,8 +1,0 @@
-auditors:
-  name: auditors
-  project_team_access:
-    auditors: {}
-  project_variable_set:
-    arguments:
-      global: false
-      priority: true

@@ -1,5 +1,5 @@
-platform:
-  name: platform
+team-org-admins:
+  name: team-org-admins
   visibility: organization
   organization_access:
     arguments:
