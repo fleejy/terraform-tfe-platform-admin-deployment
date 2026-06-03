@@ -1,2 +1,2 @@
-terraform-aws-s3-bucket:
+terraform-fleejy-module:
     identifier: "fleejy/terraform-aws-s3-bucket"
