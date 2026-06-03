@@ -1,5 +1,5 @@
 project-shared:
-  name: PROJECT-SHARED
+  name: project-shared
   project_team_access: 
     team-A: {}
     team-B: {}
