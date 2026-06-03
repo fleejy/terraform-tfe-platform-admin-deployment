@@ -1,5 +1,7 @@
 project-1:
   name: project-1
+  project_team_access:
+    team-A: {}
   project_variable_set:
     arguments:
       global: false
