@@ -6,6 +6,15 @@ terraform {
       version = "~> 0.60.0"
     }
   }
+  cloud {
+    organization = "fleejy-hashi"
+    hostname     = "app.terraform.io"
+
+    workspaces {
+      project = "PLATFORM"
+      name    = "platform-admin-management"
+    }
+  }
 }
 
 provider "tfe" {

@@ -17,6 +17,21 @@ module "platform_admin_module" {
 
   tfe_hostname     = var.tfe_hostname
   tfe_organization = var.tfe_organization
-  github_app_name = var.github_app_name
+  github_app_name  = var.github_app_name
 
+}
+
+resource "tfe_organization" "fleejy-hashi" {
+  email                                                   = "francisco.lee@ibm.com"
+  name                                                    = "fleejy-hashi"
+  aggregated_commit_status_enabled                        = true
+  allow_force_delete_workspaces                           = false
+  assessments_enforced                                    = true
+  collaborator_auth_policy                                = "password"
+  cost_estimation_enabled                                 = true
+  owners_team_saml_role_id                                = null
+  send_passing_statuses_for_untriggered_speculative_plans = false
+  session_remember_minutes                                = 0
+  session_timeout_minutes                                 = 0
+  speculative_plan_management_enabled                     = true
 }
