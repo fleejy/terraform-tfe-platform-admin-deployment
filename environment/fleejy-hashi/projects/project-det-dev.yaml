@@ -1,0 +1,10 @@
+# Example of 1:1 team to project
+project-det-dev:
+  name: project-det-dev
+  project_team_access:
+    team-A: {}
+    team-B: {}
+  project_variable_set:
+    arguments:
+      global: false
+      priority: true
