@@ -2,6 +2,7 @@ agent-sandbox:
   name: agent-sandbox
   project_team_access:
     team-A: {}
+    team-human: {}
   project_variable_set:
     arguments:
       global: false
