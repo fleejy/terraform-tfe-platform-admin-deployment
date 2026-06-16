@@ -26,7 +26,7 @@ resource "tfe_organization" "fleejy-hashi" {
   name                                                    = "fleejy-hashi"
   aggregated_commit_status_enabled                        = true
   allow_force_delete_workspaces                           = false
-  assessments_enforced                                    = false
+  assessments_enforced                                    = true
   collaborator_auth_policy                                = "password"
   cost_estimation_enabled                                 = true
   owners_team_saml_role_id                                = null
