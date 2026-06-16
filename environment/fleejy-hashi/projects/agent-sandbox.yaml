@@ -3,7 +3,8 @@ agent-sandbox:
   project_team_access:
     team-A: {}
     team-human:
-      state_versions: write   # none | read-outputs | read-all | read-all-encrypted
+      # Sets project-level permissions for team-human.
+      state_versions: write          # none | read-outputs | read-all | read-all-encrypted
       sentinel_mocks: read           # none | read
       runs: apply                    # read | plan | apply
       variables: read                # none | read | read-and-write
